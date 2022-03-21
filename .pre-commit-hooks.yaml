@@ -1,7 +1,7 @@
 - id: kics-scan
   name: Kics Scan
   language: docker
-  entry: kics scan -p .
+  entry: kics scan -p /src
   types_or:
     - terraform
     - dockerfile
