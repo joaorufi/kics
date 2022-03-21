@@ -1,4 +1,4 @@
 - id: kics-scan
   name: Kics Scan
   language: docker
-  entry: kics scan -p /src
+  entry: kics scan -p .
