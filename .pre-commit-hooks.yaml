@@ -2,3 +2,8 @@
   name: Kics Scan
   language: docker
   entry: kics scan -p .
+  types_or:
+    - terraform
+    - dockerfile
+    - yaml
+    - json
